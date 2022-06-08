@@ -2,22 +2,22 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-const Home: NextPage = () => {
+const Profile: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Homepage</title>
+        <title>Profile</title>
         <meta name="description" content="Kimchisus homepage" />
         <link rel="icon" href={`${process.env.BASE_PATH}/favicon.ico`} />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to my homepage!
+          Profile
         </h1>
       </main>
     </div>
   )
 }
 
-export default Home
+export default Profile;
